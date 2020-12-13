@@ -1,2 +1,2 @@
 # Noob-Blasters
-Refurbished car price prediction with its dataset
+This conatins the code and dataset for 'The secondhand car price prediction' and 'House price prediction'
