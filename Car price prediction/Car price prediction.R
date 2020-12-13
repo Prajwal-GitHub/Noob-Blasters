@@ -1,3 +1,4 @@
+getwd()
 library(shiny)
 
 ui = fluidPage(headerPanel("Car Selling Price Prediction"),
@@ -32,7 +33,7 @@ server <- function(input, output) {
   data2 = reactiveValues()
   observeEvent(input$go,{
     
-    data_set = read.csv("D:/NIGHT FURY/SD pgms/R/Big data/CAR DETAILS FROM CAR DEKHO.csv")
+    data_set = read.csv("CAR DETAILS FROM CAR DEKHO.csv")
     View(data_set)
     
     str(data_set)
